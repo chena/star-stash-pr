@@ -1,4 +1,4 @@
-# User Script for Starring and Tracking Stash Pull Requests
+# Stash Fave Pull Requests
 
 This JavaScript user script allows you to mark any open, merged, or declined pull requests by starring them in a repository, and list them in a new tab for quick reference. 
 
@@ -22,7 +22,7 @@ Download the user script, then follow the steps using your preferred browser.
 
 ## Notes 
 
-* By default, Stash only loades certain number of pull requests unless the query param "limit" is specified. In order to mark a merged pull request that is old, you need to set the path param (ie. `/pull-requests?state=merged&limit=200`). Once the item is starred, it should be visible under the Starred tab.
+* By default, Stash only loades certain number of pull requests unless the query param "limit" is specified. In order to mark a merged pull request that is old, you need to set the path param (ie. `* /pull-requests?state=merged&limit=200`). Once the item is starred, it should be visible under the Starred tab.
 * With the `@match` and `@exclude` rules specified, the script should only be run when navigating to a pull requests view (open, merged, etc), but not when navigating to a specific pull request.
 * Information is persisted to HTML5 `localStorage`.
 * The script makes use of HTML5 History API's `pushState` method and  `popstate` event for manipulating navigations to and from the Starred tab.

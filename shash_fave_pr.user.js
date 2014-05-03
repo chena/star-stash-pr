@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Stash Starred Pull Requests 
-// @match        https://stash.seekersolutions.com/*/pull-requests*
-// @exclude      https://stash.seekersolutions.com/*/pull-requests/\d+/*
+// @match        https://stash.*/*/pull-requests*
+// @exclude      https://stash.*/*/pull-requests/\d+/*
 // @description  Track favourite pull requests on Stash.
 // ==/UserScript==
 
