@@ -2,7 +2,7 @@
 
 This JavaScript user script allows you to mark any open, merged, or declined pull requests by starring them in a repository, and list them in a new tab for quick reference. 
 
-This is espcially useful when you want to remember a helpful tips from code reviews, or nice patterns and tricks from the code you have reviewed.
+This is espcially useful when you want to remember helpful tips from code reviews, or patterns and tricks from the code you have reviewed.
 
 ## Usage
 
