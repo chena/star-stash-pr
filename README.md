@@ -1,6 +1,6 @@
 # Stash Fave Pull Requests
 
-This JavaScript user script allows you to mark any open, merged, or declined pull requests by starring them in a repository, and list them in a new tab for quick reference. This is espcially useful when you want to remember helpful tips from code reviews, or patterns and tricks from the code you have reviewed.
+This JavaScript user script allows you to mark any open, merged, or declined pull requests by starring them in a repository, and list them in a new tab for quick reference. This is especially useful when you want to remember helpful tips from code reviews, or patterns and tricks from the code you have reviewed.
 
 The script manipulates the existing DOM elements in the Stash interface with the following tools:
 
